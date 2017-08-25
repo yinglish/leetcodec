@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceRoot}",
+                "${localappdata}/lxss/rootfs/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                "${localappdata}/lxss/rootfs/usr/local/include",
+                "${localappdata}/lxss/rootfs/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                "${localappdata}/lxss/rootfs/usr/include/x86_64-linux-gnu",
+                "${localappdata}/lxss/rootfs/usr/include"
+            ],
+            "defines": [
+                "__linux__",
+                "__x86_64__"
+            ],
+            "browse": {
+                "path": [
+                    "C:/Users/Yinglish/AppData/Local/lxss/rootfs/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                    "C:/Users/Yinglish/AppData/Local/lxss/rootfs/usr/local/include",
+                    "C:/Users/Yinglish/AppData/lxss/rootfs/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                    "C:/Users/Yinglish/AppData/lxss/rootfs/usr/include/x86_64-linux-gnu",
+                    "C:/Users/Yinglish/AppData/lxss/rootfs/usr/include/*",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 2
+}
