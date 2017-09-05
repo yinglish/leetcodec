@@ -1,5 +1,5 @@
 
-### 002. Add Two Numbers
+### 002 Add Two Numbers
 >You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 >You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -14,3 +14,25 @@ Output: 7 -> 0 -> 8
 3. 处理完最高位后，可能还有进位，循环结束后不要忘了这一点。
 
 4. while循环中一定要记得更新变量。
+
+### 003 Longest Substring Without Repeating Characters
+
+>Given a string, find the length of the longest substring without repeating characters.
+
+>**Examples:**
+
+>Given "abcabcbb", the answer is "abc", which the length is 3.
+
+>Given "bbbbb", the answer is "b", with the length of 1.
+
+>Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+1. 先写好伪代码，多举几个例子研究方法
+
+2. 只有英文字符，可用hash表判断字符是否存在
+
+3. 有些库函数要熟记
+
+4. 写完后，再检查一遍代码再编译
+
+5. 改进：滑窗法（未完成），以及滑窗法的优化（未完成）
