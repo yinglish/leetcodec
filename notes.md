@@ -36,3 +36,43 @@ Output: 7 -> 0 -> 8
 4. 写完后，再检查一遍代码再编译
 
 5. 改进：滑窗法（未完成），以及滑窗法的优化（未完成）
+
+### 004 Median of Two Sorted Arrays
+
+>There are two sorted arrays nums1 and nums2 of size m and n respectively.
+
+>Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+
+>Example 1:
+`nums1 = [1, 3]
+nums2 = [2]`
+
+>The median is 2.0
+Example 2:
+`nums1 = [1, 2]
+nums2 = [3, 4]`
+
+>The median is `(2 + 3)/2 = 2.5`
+
+1. 给出的解法较复杂，未对照进行优化
+
+### 005 Longest Palindromic Substring
+
+>Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+
+>Example:
+
+>Input: `"babad"`
+
+>Output: `"bab"`
+
+>Note: "aba" is also a valid answer.
+>Example:
+
+>Input: `"cbbd"`
+
+>Output: `"bb"`
+
+1. 参照solutions才完成，并且时间不理想
+2. 动态规划解题依旧不会，请复习算法导论相关章节
+3. 待优化
