@@ -12,7 +12,7 @@
                 "${localappdata}/lxss/rootfs/usr/local/include",
                 "${localappdata}/lxss/rootfs/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
                 "${localappdata}/lxss/rootfs/usr/include/x86_64-linux-gnu",
-                "${localappdata}/lxss/rootfs/usr/include" 
+                "${localappdata}/lxss/rootfs/usr/include"
             ],
             "defines": [
                 "__linux__",
@@ -34,5 +34,5 @@
             }
         }
     ],
-    "version": 2
+    "version": 3
 }
